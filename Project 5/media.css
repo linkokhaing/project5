@@ -1,0 +1,116 @@
+@media screen and (max-width: 1485){
+    .offers{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1373px){
+    .offers{
+        width: 72%;
+    }
+}
+
+
+@media screen and (max-width: 1250px){
+    header{
+        width: 90%;
+    }
+
+    .offers{
+        width: 82%;
+    }
+
+    .destination{
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    header{
+        width: 95%;
+    }
+
+    header .trip_bx .search_bx {
+        width: 70%;
+    }
+
+    header .trip_bx .travel_bx .cards {
+        overflow: auto;
+    }
+    
+    header .trip_bx .travel_bx .cards .card {
+          min-width: 220px;
+          margin-right: 10px;
+    }
+
+    .offers{
+        width: 95%;
+    }
+
+    .destination{
+        width: 60%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 950px){
+   header .trip_bx .search_bx {
+       width: 85%;
+   }
+   
+   header .trip_bx .search_bx .card {
+        margin-right: 8px;
+   }
+
+   .destination {
+    width: 75%;
+   }
+}
+
+
+@media screen and (max-width: 714px){
+      header nav ul {
+        position: absolute;
+        width: 100px;
+        height: auto;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;
+        justify-content: center;
+        top: -100%;
+        right: 30%;
+        z-index: 999999999999999;
+        padding: 10px 20px;
+        transition: .8s linear;
+      }
+
+      /* javascript class */
+      header nav .ul_active {
+          top: 0;
+      }
+
+      header nav ul li{
+        padding: 4px 0px;
+        text-align: center;
+      }
+
+      header nav .bi-three-dots {
+        display: unset;
+      }
+
+      header .trip_bx .search_bx {
+        width: 93%;
+      }
+
+      .offers{
+        width: 75%;
+      }
+ }
+ 
+ 
